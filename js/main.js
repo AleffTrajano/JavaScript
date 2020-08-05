@@ -1,4 +1,31 @@
 
+function clicou(){
+    document.getElementById("agradecimento").innerHTML="obrigado por clicar";
+   // console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por clicar")
+}
+
+function redirecionar(){
+    window.open("https://github.com/AleffTrajano/JavaScript");
+}
+function trocar(elemento){
+    elemento.innerHTML="obrigado por passa o mouse ";
+    //ducument.getElementById("mousemove").innerHTML ="obrigado por passsa o mouse";
+}
+function voltar(elemento){
+    elemento.innerHTML="passe o mouse aqui";
+}
+/*function
+function soma(n1,n2){
+    return n1+n2;
+}
+
+function setReplace(frase,nome, novo_nome){
+    return frase.replace(nome,novo_nome)
+}
+alert (soma(5,10));
+alert(setReplace("Vai Esperança","Jampa","Brasil"));
+
 //data
 var d = new Date();
 //alert (d.getDay)
