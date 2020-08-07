@@ -8,12 +8,12 @@ function clicou(){
 function redirecionar(){
     window.open("https://github.com/AleffTrajano/JavaScript");
 }
-function trocar(elemento){
-    elemento.innerHTML="obrigado por passa o mouse ";
-    //ducument.getElementById("mousemove").innerHTML ="obrigado por passsa o mouse";
+
+function movaSobreOElemento () {
+    document.getElementById("mover").innerHTML = "oiii"
 }
-function voltar(elemento){
-    elemento.innerHTML="passe o mouse aqui";
+function entreNoElemento () {
+    document.getElementById("entrar").innerHTML = "sai fora"
 }
 /*function
 function soma(n1,n2){

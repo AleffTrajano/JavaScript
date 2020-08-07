@@ -6,9 +6,19 @@
         <script type="text/javascript" src="js/main.js"></script>
     </head>
     <body>
-        <button type="button" onclick="clicou()">Clique Aqui</button>
-        <h3 id="agradecimento" onclick="redirecionar()"></h3>
-        <p  id="mousemove" onmousemover="trocar(this)" onmousemove="voltar(this)">passe o mouse aqui</p>
-        <p  id="mousemove2" onmousemover="trocar(this)" onmouseout="voltar(this)">passe o mouse aqui</p>
-          
-    </body>
+        <h1>Enventos em JavaScript, parte 03. Dica 20</h1>
+       
+        <div onmousemove="movaSobreOElemento()">
+            <h2>Acionando o evento onmousemove:<br>
+                <span id="mover">Passe o mouse</span>           
+            </h2>
+        </div>
+       
+        <div onmouseout="entreNoElemento()">
+            <h2>Acionando o evento onmouseenter:<br>
+                <span id="entrar">entre com o mouse</span>           
+            </h2>
+        </div>
+</body>
+
+</body>
